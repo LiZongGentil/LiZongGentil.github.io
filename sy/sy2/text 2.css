@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+.name{
+	text-align: left;
+	color: white;
+	background: #7AB75C
+}
+.content1{
+	text-align: left;
+	color: black;
+	background: white
+}
+.content2{
+	text-align: left;
+	color: black;
+	background: #CDEAA1
+}
+.head{
+	text-align: center;
+	background: #218AE3;
+	font-weight: bold
+}
+.content3{
+	text-align: left;
+	background: #63D6BD
+}
+.content4{
+	text-align: left;
+	background: yellow;
+}
+.content5{
+	text-align: center;
+	background: #FFFFFF;
+}
+.img{
+	height: "100";
+	align-content: center
+}

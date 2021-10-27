@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.head{
+	text-align: center;
+	background: #218AE3;
+	font-weight: bold
+}
+.content1{
+	text-align: center;
+	background: #63D6BD
+}
+.conten2{
+	text-align: left;
+	background: yellow
+}

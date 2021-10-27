@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>2.4</title>
+</head>
+<title>用户注册</title>
+<body>
+<from action="" method="post" name="form1">
+	<h2 align="center">用户注册</h2>
+	<table width="500" border="1" bordercolor="blue" align="center" cellpadding="3" cellspacing="2" bgcolor="#66ccff">
+		<tr>
+			<td width="100" height="20" aligh="left">姓名</td>
+			<td width="400" height="20" align="left">
+				<input type="text" name="username" id="username" size="12" maxlength="12"/> *
+			</td>
+		</tr>
+		<tr>
+			<td width="100" height="20" align="left">密码</td>
+			<td width="400" height="20" align="left">
+				<input type="password" name="pass" id="pass" size="12" maxlength="12"/> *
+			</td>
+		</tr>
+		<tr>
+			<td width="100" height="20" align="left">电话号</td>
+			<td width="400" height="20" align="left">
+				<input type="tel" name="phone" id="phone" size="11" maxlength="11"/>
+			</td>
+		</tr>
+		<tr>
+			<td width="100" height="20" align="left">邮箱</td>
+			<td width="400" height="20" align="left">
+				<input type="email" name="email" id="email" size="30" maxlength="30"/> *
+			</td>
+		</tr>
+		<tr>
+			<td width="100" height="20" align="left">性别</td>
+			<td width="400" height="20" align="left">
+				<input type="radio" name="sex" value="男" checked/> 男
+				<input type="radio" name="sex" value="女"> 女
+			</td>
+		</tr>
+		<tr>
+			<td width="100" height="20" align="left">技术</td>
+			<td width="400" height="20" align="left">
+				<input type="checkbox" name="ablility" value="java"/> java
+				<input type="checkbox" name="ablility" value="python" /> python
+				<input type="checkbox" name="ablility" value="c++" /> c++
+				<input type="checkbox" name="ablility" value="html" /> html
+			</td>
+		</tr>
+		<tr>
+			<td width="100" height="20" align="left">网站</td>
+			<td width="400" height="20" align="left">
+				<input type="url" name="web" id="web" size="60" maxlength="60" />
+			</td>
+		</tr>
+		<tr>
+			<td width="100" height="20" align="left">日期</td>
+			<td width="400" height="20" align="left">
+				<input type="date" name="date" id="date" size="30" maxlength="30">
+			</td>
+		</tr>
+		<tr>
+			<td width="100" height="20" align="left">喜欢的颜色</td>
+			<td width="400" height="20" align="left">
+				<input type="color" name="color" id="color" size="20" maxlength="20">
+			</td>
+		</tr>
+		<tr>
+			<td width="100" height="20" align="left">国家</td>
+			<td width="400" height="20" align="left">
+				<select name="country">
+					<option value="China" selected>China</option>
+					<option value="others">Others</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td width="100" height="20" align="left">留言</td>
+			<td width="400" height="20" align="left">
+				<textarea name="talk" cols="50" rows="5">请输入您的留言信息...</textarea>
+			</td>
+		</tr>
+		<tr>
+			<td height="20" colspan="2">
+				<input type="submit" name="Submit" value="提交"/>
+				<input type="reset" name="Submit2" value="重写"/>
+			</td>
+		</tr>
+	</table>
+</from>
+</body>
+</html>
