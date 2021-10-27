@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;
+	line-height:20px;
+}
+body{
+	background-color: beige;
+	height:100%;
+	position:relative;
+}
+img{
+	border:0px;
+}
+#main_block{
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 12px;
+	color: #464646;
+	overflow: hidden;
+	float: left;
+	width: 752px;
+}
+.content_main{
+	width: 720px;
+	float: left;
+	padding:20px 0 10px 20px;
+}
+.box_detail{
+	padding: 10px 0 10px 0;
+	margin: 10px 20px 10px 0;
+	clear: both;
+}
+.box_detail p{
+	padding: 5px 15px 15px 5px;
+	text-indent: 2em;
+}
+img.right{
+	float: right;
+	padding: 0 0 0 30px;
+}

@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+h2{
+	text-align: center;
+	color: #FF0004
+}
+
+h3{
+	text-align: left;
+	color: #00BF39
+}
+
+body{
+	background: #d3d7d4;
+	color: black;
+	line-height: 2em
+}
+
+div{
+	text-indent: 2em
+}
