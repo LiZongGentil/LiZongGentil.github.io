@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin:0 auto;
+	padding: 0;
+	font-size: 23px;
+}
+.a1 {
+	width: 100%;
+	height: 60px;
+	background-color:#FFB5E4;
+}
+.b1 {
+	width: 800px;
+	height: 60px;
+	margin: 0 auto;
+	padding: 0;
+}
+.b1 li {
+	list-style: none;
+	width: 100px;
+	height: 60px;
+	float: left;
+	text-align: center;
+	line-height: 60px;
+	position: relative;
+	z-index:99;
+}
+.b1 li::before{
+	content:"";
+	width: 90px;
+	height: 50px;
+	background-color: #EDFF4D;
+	border-radius: 30px;
+	position: absolute;
+	top: 6px;
+	left: 3px;
+	z-index:-99;
+	display: none;
+}
+.b1 li::after{
+	content:url("../pictures/三角01.png");
+	position: absolute;
+	top: 16px;
+	left: 44px;
+	display: none;
+}
+.b1 li:hover::before,
+.b1 li:hover::after,
+.b1 li:hover .tanchuang,
+.b1 li:hover .tanchuang02,
+.b1 li:hover .tanchaung04
+{
+	display: block;
+}
+/*.b1 li:hover::after{
+	display: block;
+}*/
+.b1 li:hover{
+	color:#FFFFFF;
+}
+.tanchuang {
+	width: 80px;
+	height: 300px;
+	background-color:#FFC26D;
+	margin: -23px auto 5px;
+	display: none;
+}
+.tanchuang02 {
+	width: 80px;
+	height: 200px;
+	background-color:#FFC26D;
+	margin: -23px auto 5px;
+	display: none;
+}
+.tanchaung04 {
+	width: 80px;
+	height: 100px;
+	background-color: #FFC26D;
+	margin: -23px auto 5px;
+	display: none;
+}
+.c1 p {
+	text-align:center;
+	line-height: 30px;
+}
+.c1 p:hover {
+	content: "";
+	width: auto;
+	height: 42px;
+	background-color:#FF9448;
+}
+.b1 a {
+	text-decoration: none;
+	color:#000000;
+}
+.b1 a:hover {
+	color: #FFFFFF;
+}
