@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+#box{
+		background:#CCCCCC;
+		width: 600px;
+		margin: 0 auto;
+		border: 1px solid #000;
+		padding: 0px 10px 5px 10px;
+	}
+#box p{text-align: center;font-size: 17px;font-family: "微软黑体"}
+	#header{
+		padding: 0px 20px 20px 20px;
+		border: 1px solid #FFFF00;
+		margin:10px;
+		background: #f00;
+		height: 180px;
+	
+	}
+ #header p{
+	text-align: left;
+	color: #ffff00;
+}
+
+	#logo{
+		padding: 5px;
+		background: #FFFF00;
+		border: 1px solid #000;
+		width: 180px;
+		height: 40px;
+		float: left;
+		
+	}
+	#banner{
+		padding: 5px;
+		background:#0000FE;
+		border: 1px solid #000;
+		width: 250px;
+		height: 40px;
+		float: right;
+		color: white;
+	}
+
+	#menu{
+		background: #023401;
+		padding: 10px;
+		border: 1px solid #000;
+		margin: 20px auto;
+		width: 518px;
+		height: 30px;
+		float: right;
+		color:white;
+		
+	}
+	#main{
+		border: 1px solid #FFFF00;
+		margin: 30px 10px;
+		background: green;
+		height: 330px;
+	
+	}
+#main p{
+	color: white;
+	
+}
+
+#sidebar{
+		padding: 10px;
+		background:#0000FE;
+		border: 1px solid white;
+		width: 70px;
+		width: 180px;
+		height: 225px;
+		float: left;
+		color: white;
+		margin: 0 20px;
+	
+}
+#content{
+		padding: 10px;
+		background:#00CCFF;
+		border: 1px solid white;
+		width: 260px;
+		height: 225px;
+		float: right;
+		color: white;
+	margin: 0 20px;
+}
+#footer{
+		padding: 10px ;
+		border: 1px solid #FFFF00;
+		margin:10px;
+		background: #f00;
+		height: 20px;
+		color: white;
+	
+	
+}
