@@ -1,5 +1,3 @@
-## Hi there 👋
-
 # My name is LiZong and Gentil
 
 
