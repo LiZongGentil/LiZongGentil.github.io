@@ -1,0 +1,54 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+    <style>
+        .img {
+            overflow: hidden;
+            height: 200px;
+            width: 110px;
+            margin: 20px auto;
+        }
+        img {
+            position: absolute;
+        }
+        .open {
+            display: none;
+        }
+        button {
+            
+            display: block;
+            margin: 20px auto;
+        }
+            
+    </style>
+</head>
+<body>
+    <div class="out">
+        <div class="img">
+            <img src="D:/作业\html/sy7/关灯.png" alt="" class="off">
+            <img src="D:/作业\html/sy7/开灯.png" alt="" class="open">
+        </div>
+        <button>点击开/关灯</button>
+
+        <script>
+            var off = document.querySelector('.off');
+            var open = document.querySelector('.open');
+            var btn = document.querySelector('button');
+            var flag = 1;
+            btn.addEventListener('click', function() {
+                if (flag) {
+                    open.style.display = 'block';
+                    flag = 0;
+                } else {
+                    open.style.display = 'none';
+                    flag = 1
+                }
+            })
+        </script>
+
+    </div>
+</body>
+</html>

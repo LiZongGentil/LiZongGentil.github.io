@@ -1,0 +1,50 @@
+
+<!doctype html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    
+    <title>计算器</title>
+    <style>
+        .content {
+            width: 200px;
+            height: 200px;
+            /* background-color: aqua; */
+            margin: 20px auto;
+        }
+        input {
+            width: 200px;
+            height: 20px;
+            margin-top: 10px;
+        }
+        button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        输入三个整数：
+        <br>
+        <input type="number" class="one">
+        <br>
+        <input type="number" class="two">
+        <br>
+        <input type="number" class="three">
+        <br>
+        <button>计算平均值!</button>
+    </div>
+
+    <script>
+        var one = document.querySelector('.one');
+        var two = document.querySelector('.two');
+        var three = document.querySelector('.three'); 
+        var btn = document.querySelector('button');
+        btn.addEventListener('click', function() {
+            console.log(one.value);
+            var mean = (Number(one.value) + Number(two.value) + Number(three.value)) / 3;
+            alert(mean);
+        })
+    </script>
+</body>
+</html>
