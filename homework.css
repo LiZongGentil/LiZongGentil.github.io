@@ -8,7 +8,7 @@ body {
 .a1 {
 	width: 100%;
 	height: 60px;
-	background-color:#FF8C00;
+	background-color:#A9A9A9;
 }
 .b1 {
 	width: 800px;
@@ -30,7 +30,7 @@ body {
 	content:"";
 	width: 90px;
 	height: 50px;
-	background-color: #EDFF4D;
+	background-color: #87CEEB;
 	border-radius: 30px;
 	position: absolute;
 	top: 6px;
